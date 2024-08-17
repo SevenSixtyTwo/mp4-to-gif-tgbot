@@ -8,7 +8,7 @@ var (
 
 // import --> const --> var --> init()
 func init() {
-	utilenv.LoadFileEnv("./secrets/.smtp.env")
+	utilenv.LoadFileEnv("./secrets/.tgapi.env")
 
 	utilenv.LoadStrVar(&TOKEN, "TOKEN")
 }
